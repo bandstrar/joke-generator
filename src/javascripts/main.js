@@ -1,7 +1,8 @@
+import jokeMaker from './components/jokeMaker';
 import '../styles/main.scss';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
+  jokeMaker.showJoke();
 };
 
 init();
